@@ -1,0 +1,17 @@
+// @import '../App/App.scss';
+.header-appbar {
+    background-color: green;
+}
+.menu {
+    text-transform: capitalize;
+    gap: 50px;
+}
+.dropdown-menu {
+    position: relative;
+}
+.dropdown-item {
+    position: absolute;
+    bottom: -110px;
+    z-index: 10;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}

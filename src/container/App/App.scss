@@ -1,7 +1,36 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
 .flex {
     display: flex;
 }
-.flex-between {
-    display: flex;
+.between {
     justify-content: space-between;
+}
+.end {
+    justify-content: flex-end;
+}
+
+.is-hover {
+    display: none;
+}
+* {
+    font-size: 21px;
+    color: black;
+}
+.when-hover {
+    &:hover,
+    &:focus-within {
+        box-sizing: border-box;
+        background-color: red;
+        .is-hover {
+            display: block;
+        }
+        .not-hover {
+            display: none;
+        }
+    }
 }
