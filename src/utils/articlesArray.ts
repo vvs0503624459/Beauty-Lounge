@@ -3,7 +3,8 @@ export type Article = {
     title: string
     title_link: string
     date: string
-    сategories: string[]
+    tag: string[]
+    categories: string[]
     image: string
     image_article: string
     image_sidebar: string
@@ -14,20 +15,19 @@ export type Article = {
 }
 const articlesArray: Article[] = [
     {
-        id:1,
-        title:"CAT'S EYE MANICURE: TOP 6 IDEAS FOR YOUR IMAGE",
+        id: 1,
+        title: "CAT'S EYE MANICURE: TOP 6 IDEAS FOR YOUR IMAGE",
         title_link: 'CATS-EYE-MANICURE',
-        date:"08 / 08 / 23",
-        сategories: ['nails', 'regular'],
-        image: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',         
-        image_article:"images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg",
+        date: '08 / 08 / 23',
+        tag: ['regular', 'recent', 'all'],
+        categories: ['nails', 'all'],
+        image: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
+        image_article: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
         image_sidebar: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
-        likes:5,
-        introduction:
-        `Cat's eye is a popular style of manicure, which is expressed in a
+        likes: 5,
+        introduction: `Cat's eye is a popular style of manicure, which is expressed in a
         spectacular, unique design....`,
-        article_text: 
-        `<div> <img src="images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg" alt="cat-eye-manicure" /> <p><span>Cat’s eye</span> is a popular style of manicure, which is expressed in a
+        article_text: `<div> <img src="images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg" alt="cat-eye-manicure" /> <p><span>Cat’s eye</span> is a popular style of manicure, which is expressed in a
           spectacular, unique design. The attractive shine, as well as the depth
           of color, look expensive, without the need for additional decoration.
           Manicure is suitable for any length and shape of nails. For a more
@@ -73,6 +73,12 @@ const articlesArray: Article[] = [
           lime, fuchsia. Contrasting decor will add expressiveness, and a neat
           jacket will be an unusual addition.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h3><span>Cat’s eye</span> manicure with design is one of the trendiest offers</h3>
         <p>
           The <span>cat’s eye</span> technique has not lost its popularity for decades, being
@@ -106,6 +112,12 @@ const articlesArray: Article[] = [
           rhinestones or acrylic powder. Even a plain version with a minimal
           amount of decor will look great and draw attention to your manicure.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h3>
           Manicure <span>crystal cat<span> with a pattern - voluminous and universal design
         </h3>
@@ -135,6 +147,12 @@ const articlesArray: Article[] = [
           elements. Nail art can be supplemented with stones, shimmer, use a
           colored rub or a marble pattern.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h3>Manicure <span>Cat’s eye</span> is red for a bold look</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-red.jpg" alt="feline approx about red color" />
         <p>
@@ -145,6 +163,12 @@ const articlesArray: Article[] = [
           design more mysterious, masters create a contrast of textures, draw
           details, use airbrushing, haze or foam nail art.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h3>Universal manicure <span>Cat’s eye</span> white</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-white.jpg" alt="cat’s eye is white" />
         <p>
@@ -152,6 +176,17 @@ const articlesArray: Article[] = [
           use highlights with rhinestones located vertically or diagonally on the
           nails.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h3><span>Cat’s eye</span> manicure is bright for practical people</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-light.jpg" alt="cat’s eye" />
         <p>
@@ -162,12 +197,38 @@ const articlesArray: Article[] = [
         </p>
       </div>`,
     },
+    {
+        id: 2,
+        title: "CAT'S EYE MANICURE: TOP 6 IDEAS FOR YOUR IMAGE",
+        title_link: 'CATS-EYE-MANICURE',
+        date: '08 / 08 / 23',
+        tag: ['pigtails', 'recent', 'all'],
+        categories: ['hairstyles', 'all'],
+        image: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
+        image_article: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
+        image_sidebar: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
+        likes: 5,
+        introduction: `Cat's eye French: a bold choice....`,
+        article_text: `<div> 
+        <h3>Manicure <span>Cat’s eye</span> French: a bold choice</h3>
+        <p>
+          French manicure is different. For those who like stylish solutions,
+          there is a spectacular tandem of geometry with a crystal glow. New
+          solutions and styles for classic nail designs - girl leaders. A classic
+          jacket made in nude shades is a great choice.
+        </p>
+        <img src="images/CATS-EYE-MANICURE/cat-eye-french.jpg" alt="cat French" />
     
+      </div>`,
+    },
 ]
-    
 
-export const getArticlesObject = (array: Article[]) => array.reduce((object, article) => ({
-    ...object,
-    [article.id]:article
-}), {})
+export const getArticlesObject = (array: Article[]) =>
+    array.reduce(
+        (object, article) => ({
+            ...object,
+            [article.id]: article,
+        }),
+        {}
+    )
 export default articlesArray

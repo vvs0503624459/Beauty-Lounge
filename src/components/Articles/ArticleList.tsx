@@ -1,24 +1,23 @@
-import { Grid, Card, CardContent } from '@mui/material'
+import { Grid } from '@mui/material'
 import articlesArray from '../../utils/articlesArray'
 import { Link } from 'react-router-dom'
 // import ArticleItem from './ArticleItem'
 
-type Props = {}
+type Props = {
+    tagItem: string
+    categoryItem: string
+}
 
-const ArticleList = (props: Props) => {
+const ArticleList = ({ tagItem, categoryItem }: Props) => {
     return (
         <Grid container spacing={4}>
-            {/* {productsArray.filter(({category}) => category==="sport").map( */}
-            {articlesArray.map(
-                ({
-                    id,
-                    title,
-                    date,
-                    // сategories,
-                    // excerpt,
-                    introduction,
-                    image,
-                }) => (
+            {articlesArray
+                .filter(
+                    (item) =>
+                        item.categories.includes(categoryItem) &&
+                        item.tag.includes(tagItem)
+                )
+                .map(({ id, title, date, introduction, image }) => (
                     <Grid item xs={12} sm={6} md={10} key={id}>
                         <p className="article-title">
                             <Link to={`/${id}`}>{title}</Link>
@@ -29,8 +28,7 @@ const ArticleList = (props: Props) => {
                         <p className="article-date">{date}</p>
                         <div className="introduction">{introduction}</div>
                     </Grid>
-                )
-            )}
+                ))}
         </Grid>
     )
 }
