@@ -1,17 +1,15 @@
 export type Review = {
-    id: number
-    title: string
-    title_link: string
+    article_id: number
     date: string
     comment: string
+    nikName: string
 }
 const reviewsArray: Review[] = [
     {
-        id: 1,
-        title: "CAT'S EYE MANICURE: TOP 6 IDEAS FOR YOUR IMAGE",
-        title_link: 'CATS-EYE-MANICURE',
-        date: '06 / 09 / 23',
+        article_id: 1,
+        date: '06/09/23',
         comment: 'string',
+        nikName: 'Jack',
     },
 ]
 
@@ -19,7 +17,7 @@ export const getReviewsObject = (array: Review[]) =>
     array.reduce(
         (object, review) => ({
             ...object,
-            [review.id]: review,
+            [review.article_id]: review,
         }),
         {}
     )
