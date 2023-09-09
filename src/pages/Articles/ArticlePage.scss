@@ -10,6 +10,14 @@
 p {
     background: tomato;
 }
+.article-box {
+    position: relative;
+    .btn-like {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
 
 @media only screen and (max-width: 720px) and (min-width: 0px) {
     .article-text {

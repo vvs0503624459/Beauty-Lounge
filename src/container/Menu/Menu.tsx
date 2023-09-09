@@ -59,7 +59,9 @@ const Menu = (props: Props) => {
                     </li>
                 </ul>
             </div>
-            <div>Favorites</div>
+            <div>
+                <Link to={'/Favorites'}>Favorites</Link>
+            </div>
         </div>
     )
 }

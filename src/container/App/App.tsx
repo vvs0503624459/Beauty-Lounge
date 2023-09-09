@@ -41,6 +41,12 @@ const App = (props: Props) => {
                         }
                     />
                     <Route path="/:id" element={<ArticlePage />} />
+                    <Route
+                        path="/Favorites"
+                        element={
+                            <ArticleList categoryItem="all" tagItem="all" />
+                        }
+                    />
                 </Routes>
             </Container>
         </StyledEngineProvider>

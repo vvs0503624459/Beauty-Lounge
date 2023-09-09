@@ -1,10 +1,15 @@
 import { useParams } from 'react-router-dom'
+import { Button } from '@mui/material'
 import articlesArray, {
     Article,
     getArticlesObject,
 } from '../../utils/articlesArray'
 import './ArticlePage.scss'
 import ReviewsList from '../../components/Reviews/ReviewsList'
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt'
+import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt'
+import { useAppDispatch, useAppSelector } from '../../redux/hooks'
+import { toggleLike } from '../../redux/likeReducer'
 type Props = {}
 type ArticleObjectType = {
     [id: number]: Article
@@ -12,8 +17,24 @@ type ArticleObjectType = {
 const ArticlePage = (props: Props) => {
     const { id } = useParams()
     const articlesObject: ArticleObjectType = getArticlesObject(articlesArray)
+    const isLiked = useAppSelector(
+        (state) => state.articlesLikeState[articlesObject[parseInt(id!)].id]
+    )
+    const dispatch = useAppDispatch()
+
     return (
-        <div>
+        <div className="article-box">
+            <Button
+                className="btn-like"
+                variant="outlined"
+                onClick={() => dispatch(toggleLike(id))}
+            >
+                {isLiked ? (
+                    <ThumbUpAltIcon color="primary" />
+                ) : (
+                    <ThumbUpOffAltIcon />
+                )}
+            </Button>
             <p className="article-title">
                 {articlesObject[parseInt(id!)].title}
             </p>
