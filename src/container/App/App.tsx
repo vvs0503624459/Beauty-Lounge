@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../../pages/Home/Home'
 import ArticlePage from '../../pages/Articles/ArticlePage'
 import ArticleList from '../../components/Articles/ArticleList'
+import FavoritesPage from '../../pages/Favorites/FavoritesPage'
 // import NewTest from '../../utils/NewTest'
 
 type Props = {}
@@ -41,12 +42,7 @@ const App = (props: Props) => {
                         }
                     />
                     <Route path="/:id" element={<ArticlePage />} />
-                    <Route
-                        path="/Favorites"
-                        element={
-                            <ArticleList categoryItem="all" tagItem="all" />
-                        }
-                    />
+                    <Route path="/Favorites" element={<FavoritesPage />} />
                 </Routes>
             </Container>
         </StyledEngineProvider>
