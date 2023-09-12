@@ -44,18 +44,18 @@ const Menu = (props: Props) => {
             </div>
             <div className="dropdown-menu when-hover">
                 <div className="flex">
-                    <Link to={'/MakeUp'}>make up</Link>
+                    <Link to={'/Makeup'}>make up</Link>
                     <Arrows />
                 </div>
                 <ul className="dropdown-item is-hover">
                     <li>
-                        <Link to={'/MakeUp'}>wedding</Link>
+                        <Link to={'/Makeup'}>wedding</Link>
                     </li>
                     <li>
-                        <Link to={'/MakeUp'}>regular</Link>
+                        <Link to={'/Makeup'}>regular</Link>
                     </li>
                     <li>
-                        <Link to={'/MakeUp'}>care</Link>
+                        <Link to={'/Makeup'}>care</Link>
                     </li>
                 </ul>
             </div>

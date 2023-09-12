@@ -36,9 +36,9 @@ const App = (props: Props) => {
                         }
                     />
                     <Route
-                        path="/makeup"
+                        path="/MakeUp"
                         element={
-                            <ArticleList categoryItem="make up" tagItem="all" />
+                            <ArticleList categoryItem="makeup" tagItem="all" />
                         }
                     />
                     <Route path="/:id" element={<ArticlePage />} />

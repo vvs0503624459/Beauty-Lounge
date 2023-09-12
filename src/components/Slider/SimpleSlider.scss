@@ -1,0 +1,135 @@
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+.slider-item-image {
+    // height: calc(100vh - 70px);
+    height: 900px;
+    width: auto;
+    object-fit: cover;
+}
+.slick-dots {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    right: 10%;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.slick-dots li {
+    width: 250px;
+    height: 100px;
+    padding: 5px 20px;
+    // background: transparent;
+    background: tomato;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.slider-pag1 {
+    .slider-child1 {
+        display: none;
+    }
+}
+.slider-child1:first-child {
+    display: block !important;
+}
+
+.slider-child2:first-child,
+.slider-child2:last-child {
+    display: none;
+}
+.slider-pag3 {
+    .slider-child3 {
+        display: none;
+    }
+}
+.slider-child3:last-child {
+    display: block !important;
+}
+
+.slick-dots li button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+.slider-child1,
+.slider-child2,
+.slider-child3 {
+    color: #ffffff;
+    opacity: 0.75;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5;
+    padding: 0 5px;
+}
+.slick-dots li.slick-active {
+    background: rgba(0, 0, 0, 0.45);
+    [class*='slider-child'] {
+        color: #ffffff;
+        opacity: 1;
+    }
+}
+
+.slider-item-content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 15px;
+    z-index: 10;
+}
+// .slider-item-title a {
+//     color: #ffffff;
+//     font-size: 13px;
+//     font-weight: 800;
+//     background-color: #f67280;
+//     padding: 4px 15px;
+//     text-align: center;
+//     border-radius: 20px;
+//     transition: all 0.3s ease-in-out;
+//     margin-bottom: 20px;
+//     text-transform: capitalize;
+// }
+
+.slider-item-title {
+    margin: 15px 0;
+    width: 95%;
+}
+.slider-item-title a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    transition: all 0.3s ease-in-out;
+}
+.slider-item-title a:hover {
+    color: #f67280;
+}
+
+.slider-item-date {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.slick-dots li button:hover::after {
+    opacity: 1;
+}
+
+@media (min-width: 1200px) {
+    .item-title {
+        width: 100%;
+    }
+    .slider-item-title a {
+        font-size: 28px;
+    }
+}
