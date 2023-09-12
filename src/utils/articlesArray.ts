@@ -7,9 +7,7 @@ export type Article = {
     categories: string[]
     image: string
     image_article: string
-    image_sidebar: string
-
-    likes: number
+    image_slider: string
     introduction: string
     article_text: string
 }
@@ -23,8 +21,7 @@ const articlesArray: Article[] = [
         categories: ['nails', 'all'],
         image: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
         image_article: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
-        image_sidebar: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
-        likes: 5,
+        image_slider: 'images/Slider/1.jpg',
         introduction: `Cat's eye is a popular style of manicure, which is expressed in a
         spectacular, unique design....`,
         article_text: `<div> <img src="images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg" alt="cat-eye-manicure" /> <p><span>Cat’s eye</span> is a popular style of manicure, which is expressed in a
@@ -206,8 +203,30 @@ const articlesArray: Article[] = [
         categories: ['hairstyles', 'all'],
         image: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
         image_article: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
-        image_sidebar: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
-        likes: 5,
+        image_slider: 'images/Slider/2.jpg',
+        introduction: `Cat's eye French: a bold choice....`,
+        article_text: `<div> 
+        <h3>Manicure <span>Cat’s eye</span> French: a bold choice</h3>
+        <p>
+          French manicure is different. For those who like stylish solutions,
+          there is a spectacular tandem of geometry with a crystal glow. New
+          solutions and styles for classic nail designs - girl leaders. A classic
+          jacket made in nude shades is a great choice.
+        </p>
+        <img src="images/CATS-EYE-MANICURE/cat-eye-french.jpg" alt="cat French" />
+    
+      </div>`,
+    },
+    {
+        id: 3,
+        title: "CAT'S EYE MANICURE: TOP 6 IDEAS FOR YOUR IMAGE",
+        title_link: 'CATS-EYE-MANICURE',
+        date: '08 / 08 / 23',
+        tag: ['pigtails', 'recent', 'all'],
+        categories: ['hairstyles', 'all'],
+        image: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
+        image_article: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
+        image_slider: 'images/Slider/3.jpg',
         introduction: `Cat's eye French: a bold choice....`,
         article_text: `<div> 
         <h3>Manicure <span>Cat’s eye</span> French: a bold choice</h3>
