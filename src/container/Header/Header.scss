@@ -1,7 +1,20 @@
-// @import '../App/App.scss';
+@import '../App/App.scss';
 .header-appbar {
-    background-color: green;
+    background-color: rgba(111, 107, 105, 0.5);
 }
+.header-top {
+    margin: 10px;
+}
+.header-top-btn-box button {
+    background-color: $mainColor;
+    border: $mainColor;
+    color: $mainColor2;
+}
+.header-top-btn-box button:hover {
+    background-color: $mainColor2;
+    color: $mainColor;
+}
+
 .menu {
     text-transform: capitalize;
     gap: 50px;
@@ -9,9 +22,34 @@
 .dropdown-menu {
     position: relative;
 }
+
 .dropdown-item {
     position: absolute;
-    bottom: -110px;
+    bottom: -103px;
     z-index: 10;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+.menu a {
+    color: $mainColor;
+    font-size: 20px;
+    width: 100px;
+}
+
+.dropdown-item li {
+    width: 130px;
+}
+
+.dropdown-menu:hover {
+    background-color: $mainColor;
+    .dropdown-box a {
+        color: $mainColor2;
+    }
+}
+
+.dropdown-item-li:hover {
+    background-color: $mainColor;
+    color: $mainColor2;
+    &.dropdown-item-li a {
+        color: $mainColor2;
+    }
 }

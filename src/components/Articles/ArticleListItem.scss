@@ -1,0 +1,14 @@
+@import '../../container/App/App.scss';
+
+.article-title {
+    justify-content: space-between;
+}
+.article-image {
+    // height: calc(100vh - 0px);
+    // height: 900px;
+    // width: auto;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    // overflow: hidden;
+}

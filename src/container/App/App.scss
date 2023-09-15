@@ -1,3 +1,5 @@
+$mainColor: #f6ede8;
+$mainColor2: #6a6765;
 ul {
     list-style: none;
 }
@@ -17,14 +19,13 @@ a {
 .is-hover {
     display: none;
 }
-* {
-    font-size: 21px;
-    color: black;
-}
+// * {
+//     font-size: 21px;
+//     color: black;
+// }
 .when-hover {
     &:hover {
         box-sizing: border-box;
-        background-color: red;
         .is-hover {
             display: block;
         }
@@ -33,6 +34,10 @@ a {
         }
     }
 }
+// reset props
 .css-480o17-MuiGrid-root {
     margin-top: 0;
+}
+ul {
+    padding-inline-start: 0;
 }

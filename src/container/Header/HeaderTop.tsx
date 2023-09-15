@@ -9,8 +9,10 @@ const HeaderTop = (props: Props) => {
             <div>
                 <SocialMedia />
             </div>
-            <div>
-                <Button variant="outlined">To became a client</Button>
+            <div className="header-top-btn-box">
+                <Button variant="contained" disableElevation>
+                    To became a client
+                </Button>
             </div>
         </div>
     )

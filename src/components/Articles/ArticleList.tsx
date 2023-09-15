@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material'
 import articlesArray from '../../utils/articlesArray'
 import ArticleListItem from './ArticleListItem'
+
 type Props = {
     tagItem: string
     categoryItem: string

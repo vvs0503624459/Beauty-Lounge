@@ -1,7 +1,7 @@
 export type Article = {
     id: number
     title: string
-    title_link: string
+    title_small: string
     date: string
     tag: string[]
     categories: string[]
@@ -15,7 +15,7 @@ const articlesArray: Article[] = [
     {
         id: 1,
         title: "CAT'S EYE MANICURE: TOP 6 IDEAS FOR YOUR IMAGE",
-        title_link: 'CATS-EYE-MANICURE',
+        title_small: 'CATS-EYE-MANICURE',
         date: '08 / 08 / 23',
         tag: ['regular', 'recent', 'all'],
         categories: ['nails', 'all'],
@@ -196,8 +196,8 @@ const articlesArray: Article[] = [
     },
     {
         id: 2,
-        title: "CAT'S 2222222222222222222222222",
-        title_link: 'CATS-EYE-MANICURE',
+        title: "CAT'S 22222222222 22222222222222",
+        title_small: "CAT'S 22222222222",
         date: '08 / 08 / 23',
         tag: ['pigtails', 'recent', 'all'],
         categories: ['hairstyles', 'all'],
@@ -219,8 +219,8 @@ const articlesArray: Article[] = [
     },
     {
         id: 3,
-        title: "CAT'S 3333333333333333",
-        title_link: 'CATS-EYE-MANICURE',
+        title: "CAT'S 333333 3333333333",
+        title_small: "CAT'S 333333",
         date: '08 / 08 / 23',
         tag: ['regular', 'recent', 'all'],
         categories: ['makeup', 'all'],

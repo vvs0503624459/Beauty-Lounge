@@ -4,6 +4,7 @@ import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt'
 import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt'
 import { useAppDispatch, useAppSelector } from '../../redux/hooks'
 import { toggleLike } from '../../redux/likeReducer'
+import './ArticleListItem.scss'
 type Props = {
     id: number
     title: string
@@ -17,19 +18,19 @@ const ArticleListItem = ({ id, title, date, introduction, image }: Props) => {
     const dispatch = useAppDispatch()
     return (
         <>
-            <Button
-                className="btn-like"
-                variant="outlined"
-                onClick={() => dispatch(toggleLike(id))}
-            >
-                {isLiked ? (
-                    <ThumbUpAltIcon color="primary" />
-                ) : (
-                    <ThumbUpOffAltIcon />
-                )}
-            </Button>
-            <p className="article-title">
+            <p className="article-title flex">
                 <Link to={`/${id}`}>{title}</Link>
+                <Button
+                    className="btn-like"
+                    variant="outlined"
+                    onClick={() => dispatch(toggleLike(id))}
+                >
+                    {isLiked ? (
+                        <ThumbUpAltIcon color="primary" />
+                    ) : (
+                        <ThumbUpOffAltIcon />
+                    )}
+                </Button>
             </p>
             <div className="article-image">
                 <img src={image} alt={title} />

@@ -24,19 +24,19 @@ const ArticlePage = (props: Props) => {
 
     return (
         <div className="article-box">
-            <Button
-                className="btn-like"
-                variant="outlined"
-                onClick={() => dispatch(toggleLike(id))}
-            >
-                {isLiked ? (
-                    <ThumbUpAltIcon color="primary" />
-                ) : (
-                    <ThumbUpOffAltIcon />
-                )}
-            </Button>
-            <p className="article-title">
+            <p className="article-title flex">
                 {articlesObject[parseInt(id!)].title}
+                <Button
+                    className="btn-like"
+                    variant="outlined"
+                    onClick={() => dispatch(toggleLike(id))}
+                >
+                    {isLiked ? (
+                        <ThumbUpAltIcon color="primary" />
+                    ) : (
+                        <ThumbUpOffAltIcon />
+                    )}
+                </Button>
             </p>
             <p className="article-date">{articlesObject[parseInt(id!)].date}</p>
             <div

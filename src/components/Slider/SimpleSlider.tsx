@@ -8,8 +8,8 @@ type Props = {}
 
 const SimpleSlider = (props: Props) => {
     var settings = {
-        autoplay: true,
-        // autoplay: false,
+        // autoplay: true,
+        autoplay: false,
         fade: true,
         dots: true,
         customPaging: function (i: number) {
@@ -24,7 +24,7 @@ const SimpleSlider = (props: Props) => {
                         .filter((article) => article.image_slider)
                         .map((article) => (
                             <div className={`slider-child${i + 1}`}>
-                                {article.title}
+                                {article.title_small}
                             </div>
                         ))}
                 </div>

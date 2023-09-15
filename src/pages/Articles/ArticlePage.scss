@@ -1,23 +1,24 @@
 .article-text {
     img {
         display: block;
-        height: 500px;
+        height: 300px;
         width: auto;
         // max-width: 600px;
         float: left;
+        object-fit: cover;
     }
 }
 p {
     background: tomato;
 }
-.article-box {
-    position: relative;
-    .btn-like {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-}
+// .article-box {
+//     position: relative;
+//     .btn-like {
+//         position: absolute;
+//         top: 0;
+//         right: 0;
+//     }
+// }
 
 @media only screen and (max-width: 720px) and (min-width: 0px) {
     .article-text {

@@ -1,32 +1,43 @@
+@import '../../container/App/App.scss';
 .slick-prev,
 .slick-next {
     display: none !important;
 }
 .slider-item-image {
-    // height: calc(100vh - 70px);
-    height: 900px;
-    width: auto;
+    height: calc(100vh - 0px);
+    // height: 900px;
+    // width: auto;
+    width: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 .slick-dots {
     display: flex !important;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    right: 10%;
+    right: 5%;
     width: auto;
     top: 0;
     bottom: 0;
     z-index: 10;
 }
 .slick-dots li {
-    width: 250px;
-    height: 100px;
+    width: 200px;
+    height: 80px;
     padding: 5px 20px;
-    // background: transparent;
-    background: tomato;
+    background: transparent;
+    // background: tomato;
     border-radius: 20px;
     margin: 10px 0;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+    background: rgba(150, 145, 145, 0.25);
+}
+[class*='slider-pag'] {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .slider-pag1 {
     .slider-child1 {
@@ -34,7 +45,7 @@
     }
 }
 .slider-child1:first-child {
-    display: block !important;
+    display: block;
 }
 
 .slider-child2:first-child,
@@ -47,21 +58,16 @@
     }
 }
 .slider-child3:last-child {
-    display: block !important;
+    display: block;
 }
 
-.slick-dots li button {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 10px;
-}
 .slider-child1,
 .slider-child2,
 .slider-child3 {
-    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin-top: 25%;
+    color: $mainColor;
     opacity: 0.75;
     text-align: center;
     font-size: 14px;
@@ -81,39 +87,29 @@
     position: absolute;
     top: 0;
     height: 100%;
-    left: 10%;
+    max-width: 70%;
+    left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 15px;
     z-index: 10;
 }
-// .slider-item-title a {
-//     color: #ffffff;
-//     font-size: 13px;
-//     font-weight: 800;
-//     background-color: #f67280;
-//     padding: 4px 15px;
-//     text-align: center;
-//     border-radius: 20px;
-//     transition: all 0.3s ease-in-out;
-//     margin-bottom: 20px;
-//     text-transform: capitalize;
-// }
 
 .slider-item-title {
     margin: 15px 0;
     width: 95%;
 }
 .slider-item-title a {
-    color: #ffffff;
+    color: $mainColor;
     font-size: 20px;
     font-weight: 900;
     line-height: 1.4;
     transition: all 0.3s ease-in-out;
 }
 .slider-item-title a:hover {
-    color: #f67280;
+    color: #f399a2;
+    box-shadow: 0 1px 10px rgba(228, 218, 218, 0.9);
 }
 
 .slider-item-date {

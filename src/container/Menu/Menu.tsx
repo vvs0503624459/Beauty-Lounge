@@ -9,52 +9,52 @@ const Menu = (props: Props) => {
                 <Link to={'/'}>home</Link>
             </div>
             <div className="dropdown-menu when-hover">
-                <div className="flex">
+                <div className="dropdown-box flex">
                     <Link to={'/Hairstyles'}>hairstyles</Link>
                     <Arrows />
                 </div>
                 <ul className="dropdown-item is-hover">
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Hairstyles'}>wedding</Link>
                     </li>
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Hairstyles'}>pigtails</Link>
                     </li>
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Hairstyles'}>curls</Link>
                     </li>
                 </ul>
             </div>
             <div className="dropdown-menu when-hover">
-                <div className="flex">
+                <div className="dropdown-box flex">
                     <Link to={'/Nails'}>nails</Link>
                     <Arrows />
                 </div>
                 <ul className="dropdown-item is-hover">
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Nails'}>wedding</Link>
                     </li>
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Nails'}>regular</Link>
                     </li>
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Nails'}>care</Link>
                     </li>
                 </ul>
             </div>
             <div className="dropdown-menu when-hover">
-                <div className="flex">
+                <div className="dropdown-box flex">
                     <Link to={'/Makeup'}>make up</Link>
                     <Arrows />
                 </div>
                 <ul className="dropdown-item is-hover">
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Makeup'}>wedding</Link>
                     </li>
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Makeup'}>regular</Link>
                     </li>
-                    <li>
+                    <li className="dropdown-item-li">
                         <Link to={'/Makeup'}>care</Link>
                     </li>
                 </ul>
