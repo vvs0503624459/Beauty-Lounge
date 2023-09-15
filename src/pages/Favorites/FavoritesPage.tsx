@@ -16,13 +16,15 @@ const FavoritesPage = (props: Props) => {
     const isLiked = useAppSelector((state) => state.articlesLikeState)
     return (
         <div>
-            <div>
+            <div className="article-list-number">
+                {' '}
+                List of{' '}
                 {
                     Object.keys(isLiked).filter(
                         (id) => isLiked[parseInt(id)] === true
                     ).length
                 }{' '}
-                favorit articles
+                favorit article(s)
             </div>
             <Grid container spacing={4}>
                 {Object.keys(isLiked)
@@ -30,9 +32,9 @@ const FavoritesPage = (props: Props) => {
                     .map((id) => (
                         <Grid
                             item
-                            xs={12}
-                            sm={6}
-                            md={10}
+                            xs={10}
+                            sm={5}
+                            md={5}
                             key={articlesObject[parseInt(id)].id}
                             className="article-box"
                         >

@@ -2,13 +2,57 @@
 
 .article-title {
     justify-content: space-between;
+    a {
+        text-align: center;
+        width: calc(100% - 64px);
+        color: $mainColor4;
+        font-size: 21px;
+        font-style: italic;
+        line-height: 1;
+        letter-spacing: 1px;
+        padding: 5px 5px 5px 5px;
+    }
+    svg {
+        color: goldenrod;
+    }
+    .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+        border-color: goldenrod;
+    }
+    color: $mainColor2;
+    box-shadow: 0 1px 10px rgba(233, 193, 106, 0.9);
+    border-radius: 5px;
+    height: 50px;
 }
 .article-image {
+    width: 100%;
+}
+.article-image img {
     // height: calc(100vh - 0px);
-    // height: 900px;
-    // width: auto;
-    width: 300px;
-    height: auto;
+    // width: calc(32.5vw - 3px);
+    width: 100%;
+    height: 350px;
     object-fit: cover;
-    // overflow: hidden;
+    overflow: hidden;
+    // display: none;
+    border-radius: 5px;
+}
+.introduction,
+.article-date {
+    color: $mainColor3;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.MuiGrid-item {
+    box-shadow: 0 2px 0.5px rgba(0, 0, 0, 0.15);
+}
+.article-list-number {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: $mainColor4;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 100%;
+    letter-spacing: 1px;
 }

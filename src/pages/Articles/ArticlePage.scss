@@ -4,13 +4,19 @@
         height: 300px;
         width: auto;
         // max-width: 600px;
-        float: left;
+        // float: left;
         object-fit: cover;
     }
 }
-p {
-    background: tomato;
+.article-page-image {
+    height: calc(60vh - 0px);
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
+// p {
+// background: tomato;
+// }
 // .article-box {
 //     position: relative;
 //     .btn-like {

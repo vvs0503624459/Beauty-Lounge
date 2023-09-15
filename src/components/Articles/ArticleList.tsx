@@ -1,6 +1,7 @@
-import { Grid } from '@mui/material'
+import { Grid, Typography } from '@mui/material'
 import articlesArray from '../../utils/articlesArray'
 import ArticleListItem from './ArticleListItem'
+import ContentList from './ContentList'
 
 type Props = {
     tagItem: string
@@ -9,32 +10,35 @@ type Props = {
 
 const ArticleList = ({ tagItem, categoryItem }: Props) => {
     return (
-        <Grid container spacing={4}>
-            {articlesArray
-                .filter(
-                    (item) =>
-                        item.categories.includes(categoryItem) &&
-                        item.tag.includes(tagItem)
-                )
-                .map(({ id, title, date, introduction, image }) => (
-                    <Grid
-                        item
-                        xs={12}
-                        sm={6}
-                        md={10}
-                        key={id}
-                        className="article-box"
-                    >
-                        <ArticleListItem
-                            id={id}
-                            title={title}
-                            date={date}
-                            introduction={introduction}
-                            image={image}
-                        />
-                    </Grid>
-                ))}
-        </Grid>
+        <>
+            <ContentList categoryItem={categoryItem} tagItem={tagItem} />
+            <Grid container spacing={4}>
+                {articlesArray
+                    .filter(
+                        (item) =>
+                            item.categories.includes(categoryItem) &&
+                            item.tag.includes(tagItem)
+                    )
+                    .map(({ id, title, date, introduction, image }) => (
+                        <Grid
+                            item
+                            xs={10}
+                            sm={5}
+                            md={5}
+                            key={id}
+                            className="article-box"
+                        >
+                            <ArticleListItem
+                                id={id}
+                                title={title}
+                                date={date}
+                                introduction={introduction}
+                                image={image}
+                            />
+                        </Grid>
+                    ))}
+            </Grid>
+        </>
     )
 }
 

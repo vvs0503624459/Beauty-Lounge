@@ -24,6 +24,11 @@ const ArticlePage = (props: Props) => {
 
     return (
         <div className="article-box">
+            <img
+                className="article-page-image"
+                src={articlesObject[parseInt(id!)].image}
+                alt={articlesObject[parseInt(id!)].title}
+            />
             <p className="article-title flex">
                 {articlesObject[parseInt(id!)].title}
                 <Button

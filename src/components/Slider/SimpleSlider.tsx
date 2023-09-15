@@ -8,8 +8,8 @@ type Props = {}
 
 const SimpleSlider = (props: Props) => {
     var settings = {
-        // autoplay: true,
-        autoplay: false,
+        autoplay: true,
+        // autoplay: false,
         fade: true,
         dots: true,
         customPaging: function (i: number) {
@@ -31,7 +31,7 @@ const SimpleSlider = (props: Props) => {
             )
         },
         infinite: true,
-        // pauseOnHover: true,
+        pauseOnHover: false,
         speed: 1000,
         autoplaySpeed: 2500,
         slidesToShow: 1,
