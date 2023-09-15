@@ -1,0 +1,23 @@
+@import '../../container/App/App.scss';
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.review-card-content {
+    gap: 15px;
+}
+.new-review-form input,
+.new-review-form textarea {
+    background-color: $mainColor;
+    font-size: 16px;
+    border: 0 !important;
+    padding: 5px 5px 5px 10px;
+    box-shadow: 0 0 9px 9px rgba(195, 195, 195, 0.14);
+}
+.new-review-form textarea {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

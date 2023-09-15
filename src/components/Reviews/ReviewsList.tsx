@@ -8,6 +8,7 @@ import {
 } from '@mui/material'
 import { useState } from 'react'
 import reviewsArray from '../../utils/reviewsArray'
+import './ReviewsList.scss'
 type Props = {
     id: number
 }
@@ -16,6 +17,7 @@ type Review = {
     date: string
     comment: string
     nikName: string
+    avatar: string
 }
 const ReviewsList = ({ id }: Props) => {
     let formatter = new Intl.DateTimeFormat('en-GB', {
@@ -24,13 +26,14 @@ const ReviewsList = ({ id }: Props) => {
         day: '2-digit',
     })
     let date = formatter.format(new Date())
-    // const reviewsObject: ReviewObjectType = getReviewsObject(reviewsArray)
+
     const [reviews, setReviews] = useState<Review[]>(reviewsArray)
     const [newReview, setNewReview] = useState<Review>({
         article_id: id,
         nikName: '',
         comment: '',
         date: date,
+        avatar: 'images/reviews/review-avatar-1.png',
     })
     const handleName = (e: React.ChangeEvent<HTMLInputElement>) => {
         setNewReview((prevState) => ({
@@ -57,6 +60,7 @@ const ReviewsList = ({ id }: Props) => {
                 nikName: '',
                 comment: '',
                 date: date,
+                avatar: 'images/reviews/review-avatar-1.png',
             })
         }
     }
@@ -64,26 +68,30 @@ const ReviewsList = ({ id }: Props) => {
     return (
         <>
             <Typography variant="h4" component={'h2'} sx={{ margin: '30px 0' }}>
-                Reviews
+                Reviews [
+                {reviews.filter(({ article_id }) => article_id === id).length}]
             </Typography>
             {reviews
                 .filter(({ article_id }) => article_id === id)
-                .map(({ nikName, comment, date }, i) => (
+                .map(({ nikName, comment, date, avatar }, i) => (
                     <Card
                         variant="outlined"
                         key={i}
                         sx={{ marginBottom: '15px' }}
                     >
-                        <CardContent>
-                            <Typography variant="h6" component="div">
-                                {nikName}:
-                            </Typography>
-                            <div>{comment}</div>
-                            <div>{date}</div>
+                        <CardContent className="flex review-card-content">
+                            <img className="avatar" src={avatar} alt="#" />
+                            <div>
+                                <Typography variant="h6" component="div">
+                                    {nikName}:
+                                </Typography>
+                                <div>{comment}</div>
+                                <div>{date}</div>
+                            </div>
                         </CardContent>
                     </Card>
                 ))}
-            <form onSubmit={onSend}>
+            <form onSubmit={onSend} className="new-review-form">
                 <Typography variant="h5" component={'div'}>
                     Please leave a review
                 </Typography>
@@ -104,7 +112,7 @@ const ReviewsList = ({ id }: Props) => {
                     />
                 </div>
                 <Button variant="outlined" type="submit">
-                    ADD
+                    ADD A REVIEW
                 </Button>
             </form>
         </>

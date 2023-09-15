@@ -70,12 +70,12 @@ const articlesArray: Article[] = [
           lime, fuchsia. Contrasting decor will add expressiveness, and a neat
           jacket will be an unusual addition.
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+       
+       
+       
+       
+       
+       
         <h3><span>Cat’s eye</span> manicure with design is one of the trendiest offers</h3>
         <p>
           The <span>cat’s eye</span> technique has not lost its popularity for decades, being
@@ -109,12 +109,12 @@ const articlesArray: Article[] = [
           rhinestones or acrylic powder. Even a plain version with a minimal
           amount of decor will look great and draw attention to your manicure.
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+       
+       
+       
+       
+       
+       
         <h3>
           Manicure <span>crystal cat<span> with a pattern - voluminous and universal design
         </h3>
@@ -144,12 +144,12 @@ const articlesArray: Article[] = [
           elements. Nail art can be supplemented with stones, shimmer, use a
           colored rub or a marble pattern.
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+       
+       
+       
+       
+       
+       
         <h3>Manicure <span>Cat’s eye</span> is red for a bold look</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-red.jpg" alt="feline approx about red color" />
         <p>
@@ -160,12 +160,12 @@ const articlesArray: Article[] = [
           design more mysterious, masters create a contrast of textures, draw
           details, use airbrushing, haze or foam nail art.
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+       
+       
+       
+       
+       
+       
         <h3>Universal manicure <span>Cat’s eye</span> white</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-white.jpg" alt="cat’s eye is white" />
         <p>
@@ -173,17 +173,17 @@ const articlesArray: Article[] = [
           use highlights with rhinestones located vertically or diagonally on the
           nails.
         </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
         <h3><span>Cat’s eye</span> manicure is bright for practical people</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-light.jpg" alt="cat’s eye" />
         <p>
