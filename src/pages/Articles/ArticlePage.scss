@@ -1,12 +1,42 @@
+@import '../../container/App/App.scss';
+.article-page-title {
+    text-align: center;
+    width: calc(100% - 64px);
+    color: $mainColor4;
+    font-size: 21px;
+    font-style: italic;
+    line-height: 100%;
+    letter-spacing: 1px;
+    padding: 15px 5px 5px 5px;
+}
 .article-text {
     img {
-        display: block;
-        height: 300px;
-        width: auto;
+        // display: block;
+        height: auto;
+        width: 700px;
         // max-width: 600px;
         // float: left;
         object-fit: cover;
     }
+    .first-image {
+        float: left;
+        padding-right: 15px;
+    }
+    ul {
+        list-style-type: circle;
+        list-style-position: inside;
+    }
+    li::marker {
+        background-color: red;
+        color: red;
+        font-size: 20px;
+    }
+    li {
+        line-height: 1.5;
+    }
+}
+span {
+    font-weight: bold;
 }
 .article-page-image {
     height: calc(60vh - 0px);

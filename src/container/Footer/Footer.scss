@@ -1,0 +1,14 @@
+@import '../App/App.scss';
+.footer-appbar {
+    background-color: #6f6b694d;
+    margin-top: 50px;
+    position: static;
+    width: 100vw;
+    bottom: 0;
+    .MuiContainer-root {
+        height: 60px;
+    }
+    .footer-box {
+        padding: 9px 0;
+    }
+}

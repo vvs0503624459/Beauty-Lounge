@@ -30,7 +30,9 @@ const ArticlePage = (props: Props) => {
                 alt={articlesObject[parseInt(id!)].title}
             />
             <p className="article-title flex">
-                {articlesObject[parseInt(id!)].title}
+                <div className="article-page-title">
+                    {articlesObject[parseInt(id!)].title}
+                </div>
                 <Button
                     className="btn-like"
                     variant="outlined"

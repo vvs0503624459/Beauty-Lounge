@@ -15,13 +15,13 @@ const Menu = (props: Props) => {
                 </div>
                 <ul className="dropdown-item is-hover">
                     <li className="dropdown-item-li">
-                        <Link to={'/Hairstyles'}>wedding</Link>
+                        <Link to={'/Hairstyles-wedding'}>wedding</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Hairstyles'}>pigtails</Link>
+                        <Link to={'/Hairstyles-pigtails'}>pigtails</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Hairstyles'}>curls</Link>
+                        <Link to={'/Hairstyles-curls'}>curls</Link>
                     </li>
                 </ul>
             </div>
@@ -32,13 +32,13 @@ const Menu = (props: Props) => {
                 </div>
                 <ul className="dropdown-item is-hover">
                     <li className="dropdown-item-li">
-                        <Link to={'/Nails'}>wedding</Link>
+                        <Link to={'/Nails-wedding'}>wedding</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Nails'}>regular</Link>
+                        <Link to={'/Nails-regular'}>regular</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Nails'}>care</Link>
+                        <Link to={'/Nails-care'}>care</Link>
                     </li>
                 </ul>
             </div>
@@ -49,13 +49,13 @@ const Menu = (props: Props) => {
                 </div>
                 <ul className="dropdown-item is-hover">
                     <li className="dropdown-item-li">
-                        <Link to={'/Makeup'}>wedding</Link>
+                        <Link to={'/Makeup-wedding'}>wedding</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Makeup'}>regular</Link>
+                        <Link to={'/Makeup-regular'}>regular</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Makeup'}>care</Link>
+                        <Link to={'/Makeup-care'}>care</Link>
                     </li>
                 </ul>
             </div>

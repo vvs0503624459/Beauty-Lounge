@@ -53,3 +53,6 @@
         color: $mainColor2;
     }
 }
+.MuiGrid-root {
+    min-height: calc(100vh - 190px);
+}

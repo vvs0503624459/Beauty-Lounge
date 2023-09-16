@@ -6,6 +6,7 @@ import Home from '../../pages/Home/Home'
 import ArticlePage from '../../pages/Articles/ArticlePage'
 import ArticleList from '../../components/Articles/ArticleList'
 import FavoritesPage from '../../pages/Favorites/FavoritesPage'
+import Footer from '../Footer/Footer'
 // import NewTest from '../../utils/NewTest'
 
 type Props = {}
@@ -30,9 +31,60 @@ const App = (props: Props) => {
                         }
                     />
                     <Route
+                        path="/hairstyles-wedding"
+                        element={
+                            <ArticleList
+                                categoryItem="hairstyles"
+                                tagItem="wedding"
+                            />
+                        }
+                    />
+                    <Route
+                        path="/hairstyles-pigtails"
+                        element={
+                            <ArticleList
+                                categoryItem="hairstyles"
+                                tagItem="pigtails"
+                            />
+                        }
+                    />
+                    <Route
+                        path="/hairstyles-curls"
+                        element={
+                            <ArticleList
+                                categoryItem="hairstyles"
+                                tagItem="curls"
+                            />
+                        }
+                    />
+                    <Route
                         path="/nails"
                         element={
                             <ArticleList categoryItem="nails" tagItem="all" />
+                        }
+                    />
+                    <Route
+                        path="/nails-wedding"
+                        element={
+                            <ArticleList
+                                categoryItem="nails"
+                                tagItem="wedding"
+                            />
+                        }
+                    />
+                    <Route
+                        path="/nails-regular"
+                        element={
+                            <ArticleList
+                                categoryItem="nails"
+                                tagItem="regular"
+                            />
+                        }
+                    />
+                    <Route
+                        path="/nails-care"
+                        element={
+                            <ArticleList categoryItem="nails" tagItem="care" />
                         }
                     />
                     <Route
@@ -41,10 +93,35 @@ const App = (props: Props) => {
                             <ArticleList categoryItem="makeup" tagItem="all" />
                         }
                     />
+                    <Route
+                        path="/MakeUp-wedding"
+                        element={
+                            <ArticleList
+                                categoryItem="makeup"
+                                tagItem="wedding"
+                            />
+                        }
+                    />
+                    <Route
+                        path="/MakeUp-regular"
+                        element={
+                            <ArticleList
+                                categoryItem="makeup"
+                                tagItem="regular"
+                            />
+                        }
+                    />
+                    <Route
+                        path="/MakeUp-care"
+                        element={
+                            <ArticleList categoryItem="makeup" tagItem="care" />
+                        }
+                    />
                     <Route path="/:id" element={<ArticlePage />} />
                     <Route path="/Favorites" element={<FavoritesPage />} />
                 </Routes>
             </Container>
+            <Footer />
         </StyledEngineProvider>
     )
 }

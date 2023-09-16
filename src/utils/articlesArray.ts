@@ -24,7 +24,7 @@ const articlesArray: Article[] = [
         image_slider: 'images/Slider/1.jpg',
         introduction: `Cat's eye is a popular style of manicure, which is expressed in a
         spectacular, unique design....`,
-        article_text: `<div> <img src="images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg" alt="cat-eye-manicure" /> <p><span>Cat’s eye</span> is a popular style of manicure, which is expressed in a
+        article_text: `<div> <img class="first-image" src="images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg" alt="cat-eye-manicure" /> <p><span>Cat’s eye</span> is a popular style of manicure, which is expressed in a
           spectacular, unique design. The attractive shine, as well as the depth
           of color, look expensive, without the need for additional decoration.
           Manicure is suitable for any length and shape of nails. For a more
@@ -70,13 +70,7 @@ const articlesArray: Article[] = [
           lime, fuchsia. Contrasting decor will add expressiveness, and a neat
           jacket will be an unusual addition.
         </p>
-       
-       
-       
-       
-       
-       
-        <h3><span>Cat’s eye</span> manicure with design is one of the trendiest offers</h3>
+               <h3><span>Cat’s eye</span> manicure with design is one of the trendiest offers</h3>
         <p>
           The <span>cat’s eye</span> technique has not lost its popularity for decades, being
           in the top positions. The original composition of sequins on the nails
@@ -109,13 +103,7 @@ const articlesArray: Article[] = [
           rhinestones or acrylic powder. Even a plain version with a minimal
           amount of decor will look great and draw attention to your manicure.
         </p>
-       
-       
-       
-       
-       
-       
-        <h3>
+               <h3>
           Manicure <span>crystal cat<span> with a pattern - voluminous and universal design
         </h3>
         <p>
@@ -144,12 +132,6 @@ const articlesArray: Article[] = [
           elements. Nail art can be supplemented with stones, shimmer, use a
           colored rub or a marble pattern.
         </p>
-       
-       
-       
-       
-       
-       
         <h3>Manicure <span>Cat’s eye</span> is red for a bold look</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-red.jpg" alt="feline approx about red color" />
         <p>
@@ -160,12 +142,6 @@ const articlesArray: Article[] = [
           design more mysterious, masters create a contrast of textures, draw
           details, use airbrushing, haze or foam nail art.
         </p>
-       
-       
-       
-       
-       
-       
         <h3>Universal manicure <span>Cat’s eye</span> white</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-white.jpg" alt="cat’s eye is white" />
         <p>
@@ -173,16 +149,6 @@ const articlesArray: Article[] = [
           use highlights with rhinestones located vertically or diagonally on the
           nails.
         </p>
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
        
         <h3><span>Cat’s eye</span> manicure is bright for practical people</h3>
         <img src="images/CATS-EYE-MANICURE/cat-eye-light.jpg" alt="cat’s eye" />
@@ -196,48 +162,280 @@ const articlesArray: Article[] = [
     },
     {
         id: 2,
-        title: "CAT'S 22222222222 22222222222222",
-        title_small: "CAT'S 22222222222",
-        date: '08 / 08 / 23',
-        tag: ['pigtails', 'recent', 'all'],
+        title: 'Hidden coloring. The latest news in the beauty sphere',
+        title_small: 'Hidden coloring latest news',
+        date: '09 / 05 / 23',
+        tag: ['wedding', 'recent', 'all'],
         categories: ['hairstyles', 'all'],
-        image: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
-        image_article: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
+        image: 'images/Hiden-coloring/1.jpg',
+        image_article: 'images/Hiden-coloring/1.jpg',
         image_slider: 'images/Slider/2.jpg',
-        introduction: `Cat's eye French: a bold choice....`,
-        article_text: `<div> 
-        <h3>Manicure <span>Cat’s eye</span> French: a bold choice</h3>
+        introduction: `Modern masters of hairdressing offering transformation techniques...`,
+        article_text: `<div><img class="first-image" src="images/Hiden-coloring/1.jpg" alt="Hidden-coloring" />
         <p>
-          French manicure is different. For those who like stylish solutions,
-          there is a spectacular tandem of geometry with a crystal glow. New
-          solutions and styles for classic nail designs - girl leaders. A classic
-          jacket made in nude shades is a great choice.
-        </p>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-french.jpg" alt="cat French" />
-    
+        Modern masters of hairdressing art are ready to offer many unusual
+        transformation techniques. One of them is hidden coloring. This is a
+        technique in which only the lower strands, sometimes the middle strands,
+        are dyed in juicy, bright shades. The natural base allows you to avoid a
+        radical transformation and experiment with new shades. The intriguing
+        detail of the image is reliably covered by curls of natural color. But
+        it is worth styling, gathering hair in a high tail or twisting curls,
+        and bright strands will play in all their glory.
+      </p>
+
+      <p>
+        Hidden hair coloring mainly uses such bright shades as crimson, green,
+        lemon, red, blue, purple. By combining the palette, you can achieve an
+        expressive and bold iridescent effect. Hidden lightening of the hair
+        gives a highlight to the usual coloring. Dyeing strands in colors close
+        to natural will create interesting highlights and enliven the image.
+      </p>
+
+      <h2>Hidden dyeing on dark hair - features of the technology</h2>
+      <p>
+        A dark shade requires preliminary care. Lightener should be applied to
+        black and brown hair. It is not worth pursuing an ash blonde. It is
+        enough to raise the shade by 2-3 tones. The tool is selected based on
+        the appearance and condition of the strands. A dark base with pink,
+        bright red, neon shades gives a spectacular game. You can choose one
+        contrasting tone or several colors, creating a real rainbow. Making
+        discreet hidden coloring on dark hair will allow muted shades of blue
+        and green.
+      </p>
+      <img src="images/Hiden-coloring/2hidden-violet.jpg" alt="hidden purple coloring" />
+
+      <h2>Concealed dyeing for blonde hair - a palette</h2>
+      <p>
+        It will not be difficult for blondes and owners of blond curls to carry
+        out fashionable coloring. Choose a pigment and you can start working. On
+        a light base, even rather restrained colors give an interesting play.
+        Blonde curls effectively contrast with cold shades. Concealed dyeing of
+        blonde hair does not require prior bleaching. But on blond strands, so
+        that muted colors turn into an explosive accent, it is better to carry
+        out lighting. Blondes do not need such preparation.
+      </p>
+      <img src="images/Hiden-coloring/3hidden-ginger.jpg" alt="coloring in light shades" />
+
+      <p>
+        Separately, it is worth saying about coloring on red hair. Preparation
+        before the procedure is necessary here, as in the case of dyeing black
+        hair. We go up by 2-3 tones on the warm palette. Bright basic looks
+        great with close shades - red, orange. But you can also play on the
+        contrast by making a hidden hair color in emerald, turquoise, purple or
+        pink neon.
+      </p>
+
+      <h2>Hidden coloring on short hair - features</h2>
+      <p>
+        Hidden coloring on short hair has nuances. You will not be able to get
+        hidden strands in the classical sense here. In the case of a pixie,
+        colorists suggest making colorful patterns on the roots. For a high
+        square, it is possible to work on several central divisions. If the edge
+        of the strands falls to the middle of the neck, we can talk about
+        traditional secret layers.
+      </p>
+      <img src="images/Hiden-coloring/4hidden-blue.png" alt="hidden coloring blue color" />
+
+      <h2>Concealed coloring for long hair and curls of medium length</h2>
+      <p>
+        The possibilities of fashionistas with curls of medium length are much
+        wider than those of their predecessors. Depending on the haircut, you
+        can create both a basal dyeing and work on the entire length - from the
+        roots to the tips. Take into account the volume of hair, the frequency
+        of strands. It is worth collecting curls in a bundle or a tail. and a
+        little secret flirts with juicy colors. An effective result is given by
+        horizontal split-painting.
+      </p>
+      <img src="images/Hiden-coloring/5hidden-blond.jpg" alt="hidden dyeing for long hair" />
+
+      <p>
+        Concealed dyeing for long hair opens up access to all the possibilities
+        of this coloring technique. The lower and middle layers of the occipital
+        part of the head are involved in the work. You can:
+      </p>
+      <ul>
+        <li>
+          dye colored strands near the roots, partially or along the entire
+          length;
+        </li>
+        <li>create colored blocks;</li>
+        <li>paint layers at the middle level;</li>
+        <li>create stretches of color towards the center.</li>
+      </ul>
+      <p>
+        Even a light half beam will reveal intriguing transitions to the gaze of
+        others.
+      </p>
+
+      <h2>How to do hidden painting yourself?</h2>
+      <p>
+        Masters of the BloomNails beauty salon will perform hidden hair dyeing
+        in compliance with all coloring rules. Skills in working with lighting
+        products, using professional pigments are the key to an excellent
+        result.
+      </p>
+
+      <p>
+        If you are counting on your own strength, here are some recommendations
+        for how to do hidden painting at home:
+      </p>
+      <ol>
+        <li>
+          Dye selection. Permanent or temporary? Depends on how long the effect
+          is expected. In the absence of experience, use temporary dyes for the
+          first procedure. Balms, gels, mousses with a toning effect are
+          suitable.
+        </li>
+        <li>
+          Divide the strands in half. Working in sections, select two areas at
+          the back of the head. Fix the upper strands with hairpins or clamps.
+          The higher the horizontal line goes, the more curls will be painted.
+          You can grab several strands from the temple area.
+        </li>
+        <li>
+          Preparation of illuminator. Concealed dyeing of blond hair, especially
+          dark shades, requires additional bleaching of the curls. When
+          determining the proportions, take into account the manufacturer's
+          recommendations, the length of the strands, the basic shade. The
+          standard ratio is 1:1.5 or 1:2 (powder and oxide, respectively).
+        </li>
+        <li>
+          Lighting. Necessaryto everyone, except for cases where hidden blonde
+          hair coloring is performed. The lightening agent is applied with a
+          brush to the curls, which will be pigmented in the future. Duration of
+          action - half an hour. After that, the product is washed off. Strands
+          are dried.
+        </li>
+        <li>
+          Coloring. Mix the coloring pigments. Apply the composition to selected
+          strands in a thick layer. Pay close attention to the root zone. To
+          facilitate the dyeing process at home, it will help to divide the
+          curls into strands 3-5 cm wide. You can use both ammonia-free products
+          and direct-action pigments.
+        </li>
+        <li>
+          Completion. The duration of action of the paint depends on its type -
+          from 15 to 40 minutes. The exact exposure time is specified by the
+          manufacturer. Then wash off the composition with water. Apply a balm
+          that fixes the paint.
+        </li>
+      </ol>
       </div>`,
     },
     {
         id: 3,
-        title: "CAT'S 333333 3333333333",
-        title_small: "CAT'S 333333",
-        date: '08 / 08 / 23',
+        title: 'WINTER MAKEUP RULES & recommendations',
+        title_small: 'Winter makeup recommendations',
+        date: '23 / 12 / 20',
         tag: ['regular', 'recent', 'all'],
         categories: ['makeup', 'all'],
-        image: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
-        image_article: 'images/CATS-EYE-MANICURE/cat-eye-french.jpg',
+        image: 'images/Winter-makeup/1.jpg',
+        image_article: 'images/Winter-makeup/1.jpg',
         image_slider: 'images/Slider/3.jpg',
-        introduction: `Cat's eye French: a bold choice....`,
+        introduction: `Winter makeup - features and recommendations....`,
         article_text: `<div> 
-        <h3>Manicure <span>Cat’s eye</span> French: a bold choice</h3>
-        <p>
-          French manicure is different. For those who like stylish solutions,
-          there is a spectacular tandem of geometry with a crystal glow. New
-          solutions and styles for classic nail designs - girl leaders. A classic
-          jacket made in nude shades is a great choice.
-        </p>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-french.jpg" alt="cat French" />
-    
+        <img class="first-image" src="images/Winter-makeup/1.jpg" alt="Winter makeup rules" />
+    <p>
+      With the onset of cold weather, it is necessary to pay due attention to
+      your own makeup, which will have several important differences from the
+      one we use in the warm season. In winter, an even skin color is rare, and
+      the epidermis is much more prone to peeling and irritation. The skin may
+      become excessively pale or, on the contrary, be covered with red spots,
+      which is caused by the influence of cold. For this reason, it is difficult
+      to call winter makeup simple, but useful tips will help to do it
+      correctly.
+    </p>
+
+    <h2>Winter makeup - features and recommendations</h2>
+
+    <p>
+      Winter makeup starts with the basics. First of all, you need to ensure
+      proper hydration for the skin. A tonic or lotion that contains alcohol
+      will not work for this. It is best to stop at cosmetic milk or cream. Do
+      not forget to use masks, including formulations with olive oil, which
+      perfectly nourish the skin, giving it freshness and additional radiance.
+      Do not forget about contrast washing, which allows you to keep the skin in
+      tone. Before going to bed, be sure to repeat the contrasting wash, after
+      which you need to apply an oil or face cream that corresponds to the
+      season.
+    </p>
+
+    <p>
+      In order for the makeup to be done correctly, you will need a suitable
+      tonal base. You can't do without tonal products in winter, even when the
+      weather welcomes warmer days. Choose a cream with a tonal effect very
+      carefully. The texture of the cosmetics should have a moderate thickness,
+      and also contain a sunscreen filter with vitamins and antioxidants. This
+      will protect the skin from frost. It is best to use a lighter tone in
+      winter and abandon powder, as additional drying at this time of the year
+      will have a negative effect.
+    </p>
+
+    <h2>Suitable lipstick for winter make-up</h2>
+
+    <p>
+      Makeup in the cold season involves the use of lipstick, which is
+      characterized by a thicker texture. Its composition must necessarily
+      include filters that protect against the effects of the sun. It is also
+      worth using a moisturizing balm and weekly exfoliating procedures using
+      the appropriate scrub. Daily care involves the use of a hygienic lipstick
+      that protects the delicate skin of the lips from weathering.
+    </p>
+
+    <p>
+      When choosing mascara, it is better to choose waterproof products. Their
+      advantage is that in the event of tears caused by the wind or snow on the
+      eyelashes, the mascara will remain in its former state, leaving no
+      separation on the face. In winter, you should not use dark eyeliner, as it
+      will make the paleness of the skin even more pronounced.
+    </p>
+
+    <h2>Makeup in winter has several bright trends that should be followed:</h2>
+    <ul>
+      <li>creation of expressive arrows;</li>
+      <li>experiments with bright shadows and grunge smokey-eyes;</li>
+      <li>application of voluminous mascara and false eyelashes.</li>
+    </ul>
+    <p>
+      Buying blush also involves a careful study of the funds presented on the
+      market. Blush should be applied on the cheekbones, and the shade of the
+      chosen product should be pink or peach. This technique will hide pale skin
+      and create an attractive blush.
+    </p>
+
+    <p>
+      Correctly applied cosmetics are the key to creating a bright image. First
+      of all, you need to use a nourishing cream, which should be used before
+      the foundation. It is necessary to make sure that the lips will receive
+      the necessary moisture. After makeup, you should use a lipstick that
+      contains nourishing or moisturizing agents. It should also include vitamin
+      E and natural oils. When using matte lipstick, you should combine it with
+      lip gloss.
+    </p>
+
+    <h2>Basic rules for removing make-up in winter</h2>
+    <img src="images/Winter-makeup/2.png" alt="Removing make-up in winter" />
+    <p>
+      You need to remove makeup correctly in winter, because the freshness and
+      youthful appearance of your skin will depend on it. Try to give preference
+      to soft cosmetics that do not contain alcohol. When the makeup is removed,
+      be sure to use a tonic for the face, as well as a soft gel for washing.
+      The water should be warm, not hot. After removing makeup, you should use a
+      cream or serum. The skin around the eyes is very delicate, so special
+      cosmetics should be used to care for it. Before going to bed, don't forget
+      to apply a balm on your lips, which will provide them with additional
+      moisture.
+    </p>
+
+    <p>
+      Winter make-up in the Bloom beauty salon will allow you to preserve the
+      health of your skin, as well as make your image more expressive and
+      individual. Our specialists will listen to all the wishes of customers,
+      and will also give useful recommendations for preserving natural beauty in
+      cold weather. Bloom beauty salon uses the most modern techniques and
+      cosmetics from well-known brands so that clients can maintain natural
+      youth without any extra effort.
+    </p>
       </div>`,
     },
 ]
