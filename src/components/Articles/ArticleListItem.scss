@@ -57,3 +57,10 @@
     line-height: 100%;
     letter-spacing: 1px;
 }
+@media (min-width: 1440px) {
+    .article-title {
+        a {
+            font-size: 21px;
+        }
+    }
+}
