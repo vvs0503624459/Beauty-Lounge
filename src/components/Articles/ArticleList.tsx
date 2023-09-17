@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid } from '@mui/material'
 import articlesArray from '../../utils/articlesArray'
 import ArticleListItem from './ArticleListItem'
 import ContentList from './ContentList'
