@@ -38,6 +38,14 @@ const reviewsArray: Review[] = [
         nikName: 'Jack White',
         avatar: 'images/reviews/review-avatar-5.png',
     },
+    {
+        article_id: 3,
+        date: '09/09/23',
+        comment:
+            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        nikName: 'Jack White',
+        avatar: 'images/reviews/review-avatar-5.png',
+    },
 ]
 
 export const getReviewsObject = (array: Review[]) =>
