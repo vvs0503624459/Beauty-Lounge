@@ -1,10 +1,11 @@
 .arrow-icon svg {
-    font-size: 30px;
+    font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1440 - 320)));
     color: inherit;
-    &:hover {
-        color: goldenrod;
-    }
 }
 .arrow-box {
-    width: 30px;
+    width: calc(15px + (30 - 15) * ((100vw - 320px) / (1440 - 320)));
+    svg {
+        font-size: calc(15px + (24 - 15) * ((100vw - 320px) / (1440 - 320)));
+    }
+    height: calc(15px + (24 - 15) * ((100vw - 320px) / (1440 - 320)));
 }

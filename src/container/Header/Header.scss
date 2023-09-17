@@ -9,6 +9,7 @@
     background-color: $mainColor;
     border: $mainColor;
     color: $mainColor2;
+    font-size: calc(8px + (14 - 8) * ((100vw - 320px) / (1440 - 320)));
 }
 .header-top-btn-box button:hover {
     background-color: $mainColor2;
@@ -17,7 +18,8 @@
 
 .menu {
     text-transform: capitalize;
-    gap: 50px;
+    gap: calc(10px + (50 - 10) * ((100vw - 320px) / (1440 - 320)));
+    // gap: 10px;
 }
 .dropdown-menu {
     position: relative;
@@ -25,18 +27,18 @@
 
 .dropdown-item {
     position: absolute;
-    bottom: -103px;
+
     z-index: 10;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
 }
 .menu a {
     color: $mainColor;
-    font-size: 20px;
-    width: 100px;
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1440 - 320)));
+    width: calc(50px + (100 - 50) * ((100vw - 320px) / (1440 - 320)));
 }
 
 .dropdown-item li {
-    width: 130px;
+    width: calc(65px + (130 - 65) * ((100vw - 320px) / (1440 - 320)));
 }
 
 .dropdown-menu:hover {
@@ -55,4 +57,26 @@
 }
 .MuiGrid-root {
     min-height: calc(100vh - 190px);
+}
+@media (max-width: 424px) {
+    .header-top {
+        flex-direction: column;
+        text-align: end;
+    }
+    .to-hide {
+        display: none;
+    }
+    .menu a {
+        width: auto;
+    }
+    .dropdown-item {
+        bottom: calc(-89px + (-74 + 89) * ((100vw - 320px) / (424 - 320)));
+    }
+}
+@media (min-width: 424px) {
+    .dropdown-item {
+        bottom: calc(
+            -52.5px + (-103 + 52.5) * ((100vw - 320px) / (1440 - 320))
+        );
+    }
 }

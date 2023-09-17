@@ -17,7 +17,7 @@ const articlesArray: Article[] = [
         title: "CAT'S EYE MANICURE: TOP 6 IDEAS FOR YOUR IMAGE",
         title_small: 'CATS-EYE-MANICURE',
         date: '08 / 08 / 23',
-        tag: ['regular', 'recent', 'all'],
+        tag: ['stylish', 'recent', 'all'],
         categories: ['nails', 'all'],
         image: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
         image_article: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
@@ -165,7 +165,7 @@ const articlesArray: Article[] = [
         title: 'Hidden coloring. The latest news in the beauty sphere',
         title_small: 'Hidden coloring latest news',
         date: '09 / 05 / 23',
-        tag: ['wedding', 'recent', 'all'],
+        tag: ['stylish', 'recent', 'all'],
         categories: ['hairstyles', 'all'],
         image: 'images/Hiden-coloring/1.jpg',
         image_article: 'images/Hiden-coloring/1.jpg',
@@ -324,10 +324,127 @@ const articlesArray: Article[] = [
     },
     {
         id: 3,
+        title: 'WEDDING MAKEUP: HOW TO SURPRISE GUESTS?',
+        title_small: 'WEDDING MAKEUP recommendations',
+        date: '23 / 12 / 21',
+        tag: ['wedding', 'all'],
+        categories: ['makeup', 'all'],
+        image: 'images/WEDDING-MAKEUP/4.jpg',
+        image_article: 'images/WEDDING-MAKEUP/1.jpg',
+        introduction: `Natural beauty, radiance and lightness are the main makeup trends..`,
+        article_text: `<div> 
+        <img class="first-image" src="images/WEDDING-MAKEUP/1.jpg" alt="WEDDING MAKEUP TIPS" />
+        <p>
+        Natural beauty, radiance and lightness are the main makeup trends of the
+        2019 wedding season. To create a stylish and harmonious look in the
+        bride's makeup, you can use:
+      </p>
+      <ul>
+        <li>
+          Red lipstick. Saturated shades are at the peak of popularity, and if
+          earlier most brides preferred pastel colors, now red is back in fashion.
+          This option is suitable for brunettes and blondes, but red-haired girls
+          should choose less saturated shades.
+        </li>
+        <li>
+          Glitter and sparkles on the eyes. They will help visually increase them
+          and make them more expressive, but of course you should know the
+          measure. Silver and gold, mother-of-pearl sequins are suitable for a
+          wedding look.
+        </li>
+        <li>
+          Shades of pastel shades. They hide flaws and visually make the eyes
+          bigger, which is the best option for girls with advanced age. Such
+          makeup allows you to look as natural and gentle as possible, even in
+          combination with a bright accent on the lips.
+        </li>
+      </ul>
+      <p>
+        Wet makeup. Radiance and natural shine give the skin a fresh and
+        moisturized look. Suitable for any color.
+      </p>
+      <p>
+        But it is better to abandon aggressive smoky eyes, false eyelashes and
+        many layers of powder and foundation.
+      </p>
+  
+      <h2>Features of wedding makeup for brown eyes</h2>
+  
+      <p>
+        The color range used in wedding makeup is not very wide, because it should
+        not be overly noticeable. In the first place - natural beauty, so many
+        people choose wedding makeup without arrows. Also, when choosing makeup,
+        you should take into account the color of the appearance and the
+        combination of shades with the color of the eyes.
+      </p>
+  
+      <h2>Girls with brown eyes are suitable for:</h2>
+  
+      <ul>
+        <li>gold, copper and bronze shades;</li>
+        <li>brown, coffee and beige color;</li>
+        <li>shades of dark green, plum, burgundy and dark blue.</li>
+      </ul>
+      <p>
+        Of course, it is important to take into account the design and style of
+        the dress, the design details.
+      </p>
+   
+      <h2>The best shades for wedding makeup for green eyes</h2>
+      <p>
+        Green has many shades, so you need to choose the right eye shadow. The
+        most winning shades will be copper, brown, purple and purple. On the
+        contrary, it is better to avoid green. The filling can be chosen dark
+        chocolate or black-brown.
+      </p>
+  
+      <h2>What shades to choose for the wedding makeup of blue eyes</h2>
+      <img src="images/WEDDING-MAKEUP/2.jpg" alt="Wedding makeup" />
+      
+  
+      <p>
+        Blue eyes are easy to emphasize, just as easy to make pale, everything
+        depends on the chosen shade. With a strong darkening, the main shade will
+        begin to suppress the color of the eyes. Therefore, in this case, pastel
+        colors are suitable.
+      </p>
+  
+      <p>
+        Wedding makeup with blue arrows will look good, which will allow you to
+        create a profitable accent. This option is ideal for platinum blondes with
+        light skin.
+      </p>
+  
+      <h2>Wedding makeup ideas for blondes</h2>
+      <img src="images/WEDDING-MAKEUP/3.jpg" alt="Wedding makeup for blondes" />
+      
+  
+      <p>
+        Purple, turquoise, peach, gray and blue shades are perfect for blondes for
+        wedding makeup. For owners of gray eyes and light curls, the same colors
+        with the addition of graphite and dark brown tones are suitable. Brown
+        eyes will emphasize warm chocolate or deep green shades. For green eyes,
+        the same options as for brown eyes are applicable, with the exception of
+        blue.
+      </p>
+  
+      <h2>Wedding makeup ideas for brunettes</h2>
+      <img src="images/WEDDING-MAKEUP/4.jpg" alt="Wedding makeup for brunettes" />
+
+      <p>
+        Black voluminous mascara, brown shading on the eyelids and caramel-colored
+        gloss on the lips are the secret of a perfect wedding look for brunettes,
+        especially those with brown eyes. The image will become even more delicate
+        if you make your eyebrows a couple of tones lighter than your hair color.
+      </p>
+      </div>`,
+    },
+    {
+        id: 4,
         title: 'WINTER MAKEUP RULES & recommendations',
         title_small: 'Winter makeup recommendations',
         date: '23 / 12 / 20',
-        tag: ['regular', 'recent', 'all'],
+        tag: ['stylish', 'recent', 'all'],
         categories: ['makeup', 'all'],
         image: 'images/Winter-makeup/1.jpg',
         image_article: 'images/Winter-makeup/1.jpg',

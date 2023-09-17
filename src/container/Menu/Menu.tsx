@@ -5,7 +5,7 @@ type Props = {}
 const Menu = (props: Props) => {
     return (
         <div className="menu flex end">
-            <div>
+            <div className="to-hide">
                 <Link to={'/'}>home</Link>
             </div>
             <div className="dropdown-menu when-hover">
@@ -18,10 +18,10 @@ const Menu = (props: Props) => {
                         <Link to={'/Hairstyles-wedding'}>wedding</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Hairstyles-pigtails'}>pigtails</Link>
+                        <Link to={'/Hairstyles-stylish'}>stylish</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Hairstyles-curls'}>curls</Link>
+                        <Link to={'/Hairstyles-care'}>care</Link>
                     </li>
                 </ul>
             </div>
@@ -35,7 +35,7 @@ const Menu = (props: Props) => {
                         <Link to={'/Nails-wedding'}>wedding</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Nails-regular'}>regular</Link>
+                        <Link to={'/Nails-stylish'}>stylish</Link>
                     </li>
                     <li className="dropdown-item-li">
                         <Link to={'/Nails-care'}>care</Link>
@@ -52,14 +52,14 @@ const Menu = (props: Props) => {
                         <Link to={'/Makeup-wedding'}>wedding</Link>
                     </li>
                     <li className="dropdown-item-li">
-                        <Link to={'/Makeup-regular'}>regular</Link>
+                        <Link to={'/Makeup-stylish'}>stylish</Link>
                     </li>
                     <li className="dropdown-item-li">
                         <Link to={'/Makeup-care'}>care</Link>
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="to-hide">
                 <Link to={'/Favorites'}>Favorites</Link>
             </div>
         </div>

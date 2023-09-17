@@ -102,9 +102,10 @@
 }
 .slider-item-title a {
     color: $mainColor;
-    font-size: 20px;
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1440 - 320)));
     font-weight: 900;
     line-height: 1.4;
+    text-transform: uppercase;
     transition: all 0.3s ease-in-out;
 }
 .slider-item-title a:hover {

@@ -7,7 +7,7 @@
         text-transform: uppercase;
         width: calc(100% - 64px);
         color: $mainColor4;
-        font-size: 21px;
+        font-size: calc(12px + (21 - 12) * ((100vw - 320px) / (1440 - 320)));
         font-style: italic;
         line-height: 1;
         letter-spacing: 1px;
@@ -40,7 +40,7 @@
 .introduction,
 .article-date {
     color: $mainColor3;
-    font-size: 18px;
+    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (1440 - 320)));
     letter-spacing: 1px;
     font-style: italic;
 }
@@ -52,7 +52,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
     color: $mainColor4;
-    font-size: 30px;
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1440 - 320)));
     font-style: italic;
     line-height: 100%;
     letter-spacing: 1px;
