@@ -23,6 +23,9 @@
 }
 .dropdown-menu {
     position: relative;
+    ul {
+        margin: 0;
+    }
 }
 
 .dropdown-item {
@@ -50,7 +53,6 @@
 
 .dropdown-item-li:hover {
     background-color: $mainColor;
-    color: $mainColor2;
     &.dropdown-item-li a {
         color: $mainColor2;
     }
@@ -65,18 +67,5 @@
     }
     .to-hide {
         display: none;
-    }
-    .menu a {
-        width: auto;
-    }
-    .dropdown-item {
-        bottom: calc(-89px + (-74 + 89) * ((100vw - 320px) / (424 - 320)));
-    }
-}
-@media (min-width: 424px) {
-    .dropdown-item {
-        bottom: calc(
-            -52.5px + (-103 + 52.5) * ((100vw - 320px) / (1440 - 320))
-        );
     }
 }
