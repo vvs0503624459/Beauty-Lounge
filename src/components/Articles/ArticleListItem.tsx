@@ -25,11 +25,7 @@ const ArticleListItem = ({ id, title, date, introduction, image }: Props) => {
                     variant="outlined"
                     onClick={() => dispatch(toggleLike(id))}
                 >
-                    {isLiked ? (
-                        <ThumbUpAltIcon color="primary" />
-                    ) : (
-                        <ThumbUpOffAltIcon />
-                    )}
+                    {isLiked ? <ThumbUpAltIcon /> : <ThumbUpOffAltIcon />}
                 </Button>
             </p>
             <div className="article-image">

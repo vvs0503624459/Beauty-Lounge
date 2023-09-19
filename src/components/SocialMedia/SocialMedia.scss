@@ -11,3 +11,11 @@
         color: $mainColor;
     }
 }
+.hiden-show {
+    display: none;
+}
+@media (max-width: 424px) {
+    .hiden-show {
+        display: block;
+    }
+}

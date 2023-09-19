@@ -327,7 +327,7 @@ const articlesArray: Article[] = [
         title: 'WEDDING MAKEUP: HOW TO SURPRISE GUESTS?',
         title_small: 'WEDDING MAKEUP recommendations',
         date: '23 / 12 / 21',
-        tag: ['wedding', 'all'],
+        tag: ['wedding', 'recent', 'all'],
         categories: ['makeup', 'all'],
         image: 'images/WEDDING-MAKEUP/4.jpg',
         image_article: 'images/WEDDING-MAKEUP/1.jpg',
