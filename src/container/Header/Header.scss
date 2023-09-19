@@ -19,13 +19,13 @@
 .menu {
     text-transform: capitalize;
     gap: calc(10px + (50 - 10) * ((100vw - 320px) / (1440 - 320)));
-    // gap: 10px;
 }
 .dropdown-menu {
     position: relative;
     ul {
         margin: 0;
     }
+    box-sizing: border-box;
 }
 
 .dropdown-item {
@@ -34,19 +34,21 @@
     z-index: 10;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
 }
-.menu a {
-    color: $mainColor;
-    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1440 - 320)));
-    width: calc(50px + (100 - 50) * ((100vw - 320px) / (1440 - 320)));
-}
 
-.dropdown-item li {
-    width: calc(65px + (130 - 65) * ((100vw - 320px) / (1440 - 320)));
+.menu {
+    color: $mainColor;
+    font-size: calc(13px + (20 - 13) * ((100vw - 320px) / (1440 - 320)));
+}
+.menu > div,
+.dropdown-box,
+.dropdown-item-li {
+    width: calc(75px + (108 - 75) * ((100vw - 320px) / (1440 - 320)));
 }
 
 .dropdown-menu:hover {
     background-color: $mainColor;
-    .dropdown-box a {
+    .dropdown-box a,
+    .dropdown-box svg {
         color: $mainColor2;
     }
 }

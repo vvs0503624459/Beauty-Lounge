@@ -1,7 +1,7 @@
 import { AppBar, Container } from '@mui/material'
-import HeaderBody from './HeaderBody'
 import HeaderTop from './HeaderTop'
 import './Header.scss'
+import Menu from '../Menu/Menu'
 type Props = {}
 
 const Header = (props: Props) => {
@@ -12,7 +12,7 @@ const Header = (props: Props) => {
                 <HeaderTop />
                 {/* </Toolbar> */}
                 {/* <Toolbar> */}
-                <HeaderBody />
+                <Menu />
                 {/* </Toolbar> */}
             </Container>
         </AppBar>

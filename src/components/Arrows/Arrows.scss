@@ -1,11 +1,10 @@
-.arrow-icon svg {
-    font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1440 - 320)));
-    color: inherit;
-}
 .arrow-box {
-    width: calc(15px + (30 - 15) * ((100vw - 320px) / (1440 - 320)));
     svg {
-        font-size: calc(15px + (24 - 15) * ((100vw - 320px) / (1440 - 320)));
+        // font-size: calc(12px + (24 - 12) * ((100vw - 320px) / (1440 - 320)));
+        font-size: inherit;
+        color: inherit;
     }
-    height: calc(15px + (24 - 15) * ((100vw - 320px) / (1440 - 320)));
+    height: 15px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
 }

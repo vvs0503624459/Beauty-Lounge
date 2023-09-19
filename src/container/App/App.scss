@@ -7,6 +7,8 @@ ul {
 }
 a {
     text-decoration: none;
+    font: inherit;
+    color: inherit;
 }
 .flex {
     display: flex;
@@ -16,6 +18,9 @@ a {
 }
 .end {
     justify-content: flex-end;
+}
+.start {
+    justify-content: flex-start;
 }
 
 .is-hover {
@@ -39,4 +44,7 @@ a {
 }
 ul {
     padding-inline-start: 0;
+}
+body {
+    line-height: normal !important;
 }
