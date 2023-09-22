@@ -67,6 +67,63 @@
 .MuiGrid-root {
     min-height: calc(100vh - 190px);
 }
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+.modal-block {
+    color: $mainColor2;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    background-color: $mainColor;
+    border: 1px solid grey;
+    margin: 100px auto;
+    border-radius: 20%;
+}
+.modal-block {
+    position: relative;
+}
+.modal-block form {
+    .btn-box {
+        text-align: center;
+    }
+}
+.modal-block h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form-field {
+    margin-bottom: 15px;
+}
+.form-field input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+.btn-close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: $mainColor;
+}
+
+.modal-hide {
+    display: none;
+}
+.modal-show {
+    display: block;
+}
+
 @media (max-width: 424px) {
     .header-top {
         flex-direction: column;

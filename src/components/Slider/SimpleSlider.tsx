@@ -23,7 +23,10 @@ const SimpleSlider = (props: Props) => {
                     {articlesArray
                         .filter((article) => article.image_slider)
                         .map((article) => (
-                            <div className={`slider-child${i + 1}`}>
+                            <div
+                                className={`slider-child${i + 1}`}
+                                key={article.id}
+                            >
                                 {article.title_small}
                             </div>
                         ))}
