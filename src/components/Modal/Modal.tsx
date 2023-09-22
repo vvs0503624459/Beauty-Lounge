@@ -92,9 +92,9 @@ const Modal = ({ modalWindow }: Props) => {
     const renderMessage = () => {
         return (
             <div>
-                <div>
-                    Dear, {clientData.clientName} we will contact with you as
-                    soon as we can
+                <div className="resp-message">
+                    Dear, <span>{clientData.clientName}</span> we will contact
+                    with you as soon as we can
                 </div>
             </div>
         )
