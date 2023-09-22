@@ -112,7 +112,7 @@ const Modal = ({ modalWindow }: Props) => {
                 }}
             >
                 {isDataSend
-                    ? ' We recived your request'
+                    ? ' We received your request'
                     : 'Please enter your contact information'}
             </Typography>
             {isDataSend ? renderMessage() : renderForm()}
