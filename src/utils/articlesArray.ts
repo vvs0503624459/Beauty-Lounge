@@ -19,12 +19,12 @@ const articlesArray: Article[] = [
         date: '08 / 08 / 23',
         tag: ['stylish', 'recent', 'all'],
         categories: ['nails', 'all'],
-        image: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
-        image_article: 'images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
-        image_slider: 'images/Slider/1.jpg',
+        image: '/images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
+        image_article: '/images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg',
+        image_slider: '/images/Slider/1.jpg',
         introduction: `Cat's eye is a popular style of manicure, which is expressed in a
         spectacular, unique design....`,
-        article_text: `<div> <img class="first-image" src="images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg" alt="cat-eye-manicure" /> <p><span>Cat’s eye</span> is a popular style of manicure, which is expressed in a
+        article_text: `<div> <img class="first-image" src="/images/CATS-EYE-MANICURE/cat-eye-771x-r.jpg" alt="cat-eye-manicure" /> <p><span>Cat’s eye</span> is a popular style of manicure, which is expressed in a
           spectacular, unique design. The attractive shine, as well as the depth
           of color, look expensive, without the need for additional decoration.
           Manicure is suitable for any length and shape of nails. For a more
@@ -60,7 +60,7 @@ const articlesArray: Article[] = [
           solutions and styles for classic nail designs - girl leaders. A classic
           jacket made in nude shades is a great choice.
         </p>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-french.jpg" alt="cat French" />
+        <img src="/images/CATS-EYE-MANICURE/cat-eye-french.jpg" alt="cat French" />
         <p>
           Covering <span>cat’s eye</span> French jacket is suitable for lovers of bright,
           bold solutions. Made in rich shades, it will look fantastic, being a
@@ -94,7 +94,7 @@ const articlesArray: Article[] = [
           choice is stamping from floristry and abstraction. A light base in
           tandem with dark and rich shades will look expensive and complete.
         </p>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-design.jpg" alt="cat’s eye with a pattern" />
+        <img src="/images/CATS-EYE-MANICURE/cat-eye-design.jpg" alt="cat’s eye with a pattern" />
         <p>
           A cat’s eye manicure with a space design, made in purple, blue, emerald
           shades will look exquisite. Iridescence, the shine of multi-colored
@@ -117,7 +117,7 @@ const articlesArray: Article[] = [
           design option allows you to emphasize the playfulness of the shining
           particles of the coating and create a neat manicure.
         </p>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-hrustal.jpg" alt="crystal cat" />
+        <img src="/images/CATS-EYE-MANICURE/cat-eye-hrustal.jpg" alt="crystal cat" />
         <p>
           Please note that <span>cat’s eye</span> nails can be made in white, black and red.
           The technique is universal, it looks luxurious both with a plain glossy
@@ -133,7 +133,7 @@ const articlesArray: Article[] = [
           colored rub or a marble pattern.
         </p>
         <h3>Manicure <span>Cat’s eye</span> is red for a bold look</h3>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-red.jpg" alt="feline approx about red color" />
+        <img src="/images/CATS-EYE-MANICURE/cat-eye-red.jpg" alt="feline approx about red color" />
         <p>
           Often curls, strokes, stripes are applied to a delicate base, pink or
           red shades, smooth transitions are used. This solution allows you to
@@ -143,7 +143,7 @@ const articlesArray: Article[] = [
           details, use airbrushing, haze or foam nail art.
         </p>
         <h3>Universal manicure <span>Cat’s eye</span> white</h3>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-white.jpg" alt="cat’s eye is white" />
+        <img src="/images/CATS-EYE-MANICURE/cat-eye-white.jpg" alt="cat’s eye is white" />
         <p>
           Differs in depth, color saturation. In the design, you can additionally
           use highlights with rhinestones located vertically or diagonally on the
@@ -151,7 +151,7 @@ const articlesArray: Article[] = [
         </p>
        
         <h3><span>Cat’s eye</span> manicure is bright for practical people</h3>
-        <img src="images/CATS-EYE-MANICURE/cat-eye-light.jpg" alt="cat’s eye" />
+        <img src="/images/CATS-EYE-MANICURE/cat-eye-light.jpg" alt="cat’s eye" />
         <p>
           Often combined with nude shades, shimmering iridescence, stones, unusual
           color compositions, openwork elements, rhinestones, gradient, monograms.
@@ -167,11 +167,11 @@ const articlesArray: Article[] = [
         date: '09 / 05 / 23',
         tag: ['stylish', 'recent', 'all'],
         categories: ['hairstyles', 'all'],
-        image: 'images/Hiden-coloring/1.jpg',
-        image_article: 'images/Hiden-coloring/1.jpg',
-        image_slider: 'images/Slider/2.jpg',
+        image: '/images/Hiden-coloring/1.jpg',
+        image_article: '/images/Hiden-coloring/1.jpg',
+        image_slider: '/images/Slider/2.jpg',
         introduction: `Modern masters of hairdressing offering transformation techniques...`,
-        article_text: `<div><img class="first-image" src="images/Hiden-coloring/1.jpg" alt="Hidden-coloring" />
+        article_text: `<div><img class="first-image" src="/images/Hiden-coloring/1.jpg" alt="Hidden-coloring" />
         <p>
         Modern masters of hairdressing art are ready to offer many unusual
         transformation techniques. One of them is hidden coloring. This is a
@@ -202,7 +202,7 @@ const articlesArray: Article[] = [
         discreet hidden coloring on dark hair will allow muted shades of blue
         and green.
       </p>
-      <img src="images/Hiden-coloring/2hidden-violet.jpg" alt="hidden purple coloring" />
+      <img src="/images/Hiden-coloring/2hidden-violet.jpg" alt="hidden purple coloring" />
 
       <h2>Concealed dyeing for blonde hair - a palette</h2>
       <p>
@@ -214,7 +214,7 @@ const articlesArray: Article[] = [
         that muted colors turn into an explosive accent, it is better to carry
         out lighting. Blondes do not need such preparation.
       </p>
-      <img src="images/Hiden-coloring/3hidden-ginger.jpg" alt="coloring in light shades" />
+      <img src="/images/Hiden-coloring/3hidden-ginger.jpg" alt="coloring in light shades" />
 
       <p>
         Separately, it is worth saying about coloring on red hair. Preparation
@@ -234,7 +234,7 @@ const articlesArray: Article[] = [
         of the strands falls to the middle of the neck, we can talk about
         traditional secret layers.
       </p>
-      <img src="images/Hiden-coloring/4hidden-blue.png" alt="hidden coloring blue color" />
+      <img src="/images/Hiden-coloring/4hidden-blue.png" alt="hidden coloring blue color" />
 
       <h2>Concealed coloring for long hair and curls of medium length</h2>
       <p>
@@ -246,7 +246,7 @@ const articlesArray: Article[] = [
         little secret flirts with juicy colors. An effective result is given by
         horizontal split-painting.
       </p>
-      <img src="images/Hiden-coloring/5hidden-blond.jpg" alt="hidden dyeing for long hair" />
+      <img src="/images/Hiden-coloring/5hidden-blond.jpg" alt="hidden dyeing for long hair" />
 
       <p>
         Concealed dyeing for long hair opens up access to all the possibilities
@@ -329,11 +329,11 @@ const articlesArray: Article[] = [
         date: '23 / 12 / 21',
         tag: ['wedding', 'recent', 'all'],
         categories: ['makeup', 'all'],
-        image: 'images/WEDDING-MAKEUP/4.jpg',
-        image_article: 'images/WEDDING-MAKEUP/1.jpg',
+        image: '/images/WEDDING-MAKEUP/4.jpg',
+        image_article: '/images/WEDDING-MAKEUP/1.jpg',
         introduction: `Natural beauty, radiance and lightness are the main makeup trends..`,
         article_text: `<div> 
-        <img class="first-image" src="images/WEDDING-MAKEUP/1.jpg" alt="WEDDING MAKEUP TIPS" />
+        <img class="first-image" src="/images/WEDDING-MAKEUP/1.jpg" alt="WEDDING MAKEUP TIPS" />
         <p>
         Natural beauty, radiance and lightness are the main makeup trends of the
         2019 wedding season. To create a stylish and harmonious look in the
@@ -399,7 +399,7 @@ const articlesArray: Article[] = [
       </p>
   
       <h2>What shades to choose for the wedding makeup of blue eyes</h2>
-      <img src="images/WEDDING-MAKEUP/2.jpg" alt="Wedding makeup" />
+      <img src="/images/WEDDING-MAKEUP/2.jpg" alt="Wedding makeup" />
       
   
       <p>
@@ -416,7 +416,7 @@ const articlesArray: Article[] = [
       </p>
   
       <h2>Wedding makeup ideas for blondes</h2>
-      <img src="images/WEDDING-MAKEUP/3.jpg" alt="Wedding makeup for blondes" />
+      <img src="/images/WEDDING-MAKEUP/3.jpg" alt="Wedding makeup for blondes" />
       
   
       <p>
@@ -429,7 +429,7 @@ const articlesArray: Article[] = [
       </p>
   
       <h2>Wedding makeup ideas for brunettes</h2>
-      <img src="images/WEDDING-MAKEUP/4.jpg" alt="Wedding makeup for brunettes" />
+      <img src="/images/WEDDING-MAKEUP/4.jpg" alt="Wedding makeup for brunettes" />
 
       <p>
         Black voluminous mascara, brown shading on the eyelids and caramel-colored
@@ -446,12 +446,12 @@ const articlesArray: Article[] = [
         date: '23 / 12 / 20',
         tag: ['stylish', 'recent', 'all'],
         categories: ['makeup', 'all'],
-        image: 'images/Winter-makeup/1.jpg',
-        image_article: 'images/Winter-makeup/1.jpg',
-        image_slider: 'images/Slider/3.jpg',
+        image: '/images/Winter-makeup/1.jpg',
+        image_article: '/images/Winter-makeup/1.jpg',
+        image_slider: '/images/Slider/3.jpg',
         introduction: `Winter makeup - features and recommendations....`,
         article_text: `<div> 
-        <img class="first-image" src="images/Winter-makeup/1.jpg" alt="Winter makeup rules" />
+        <img class="first-image" src="/images/Winter-makeup/1.jpg" alt="Winter makeup rules" />
     <p>
       With the onset of cold weather, it is necessary to pay due attention to
       your own makeup, which will have several important differences from the
@@ -531,7 +531,7 @@ const articlesArray: Article[] = [
     </p>
 
     <h2>Basic rules for removing make-up in winter</h2>
-    <img src="images/Winter-makeup/2.png" alt="Removing make-up in winter" />
+    <img src="/images/Winter-makeup/2.png" alt="Removing make-up in winter" />
     <p>
       You need to remove makeup correctly in winter, because the freshness and
       youthful appearance of your skin will depend on it. Try to give preference

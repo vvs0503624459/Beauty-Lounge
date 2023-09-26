@@ -19,7 +19,7 @@ const ArticleListItem = ({ id, title, date, introduction, image }: Props) => {
     return (
         <>
             <p className="article-title flex">
-                <Link to={`/${id}`}>{title}</Link>
+                <Link to={`/Article/${id}`}>{title}</Link>
                 <Button
                     className="btn-like"
                     variant="outlined"

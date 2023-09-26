@@ -1,6 +1,7 @@
 import { Container, CssBaseline, StyledEngineProvider } from '@mui/material'
 import Header from '../Header/Header'
 import './App.scss'
+import './ExtraRules.scss'
 import { Route, Routes } from 'react-router-dom'
 import Home from '../../pages/Home/Home'
 import ArticlePage from '../../pages/Articles/ArticlePage'
@@ -115,7 +116,7 @@ const App = (props: Props) => {
                             <ArticleList categoryItem="makeup" tagItem="care" />
                         }
                     />
-                    <Route path="/:id" element={<ArticlePage />} />
+                    <Route path="/Article/:id" element={<ArticlePage />} />
                     <Route path="/Favorites" element={<FavoritesPage />} />
                 </Routes>
             </Container>
