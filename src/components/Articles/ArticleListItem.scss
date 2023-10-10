@@ -7,7 +7,7 @@
         text-transform: uppercase;
         width: calc(100% - 64px);
         color: $mainColor4;
-        font-size: calc(12px + (21 - 12) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(9px + (21 - 9) * ((100vw - 320px) / (1440 - 320)));
         font-style: italic;
         line-height: 1;
         letter-spacing: 1px;
@@ -56,6 +56,12 @@
     font-style: italic;
     line-height: 100%;
     letter-spacing: 1px;
+}
+.home-main-articles {
+    width: 89%;
+}
+.home-main {
+    gap: 10px;
 }
 @media (min-width: 1440px) {
     .article-title {

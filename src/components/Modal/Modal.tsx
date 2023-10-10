@@ -73,6 +73,7 @@ const Modal = ({ modalWindow }: Props) => {
                         value={clientData.clientName}
                         placeholder="Your name"
                         onChange={handleName}
+                        name="name"
                     />
                 </div>
                 <div className="form-field">
@@ -81,6 +82,7 @@ const Modal = ({ modalWindow }: Props) => {
                         value={clientData.phone}
                         placeholder="Your phone number"
                         onChange={handlePhone}
+                        name="phone"
                     />
                 </div>
                 <div className="btn-box">

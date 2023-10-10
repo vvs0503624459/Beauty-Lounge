@@ -1,0 +1,13 @@
+@import '../../container/App/App.scss';
+
+.sidebar-box {
+    width: calc(11% - 10px);
+}
+@media (max-width: 600px) {
+    .sidebar-box {
+        display: none;
+    }
+    .home-main-articles {
+        width: 100%;
+    }
+}

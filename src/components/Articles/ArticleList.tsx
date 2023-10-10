@@ -22,9 +22,9 @@ const ArticleList = ({ tagItem, categoryItem }: Props) => {
                     .map(({ id, title, date, introduction, image }) => (
                         <Grid
                             item
-                            xs={10}
-                            sm={5}
-                            md={5}
+                            xs={12}
+                            sm={6}
+                            md={6}
                             key={id}
                             className="article-box"
                         >

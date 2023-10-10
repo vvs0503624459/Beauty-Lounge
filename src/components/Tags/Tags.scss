@@ -1,0 +1,42 @@
+@import '../../container/App/App.scss';
+
+// .tags-list {
+// width: calc(20% - 10px);
+// width: calc(40px + (150 - 40) * ((100vw - 320px) / (1440 - 320)));
+// }
+
+.tags-list-header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: $mainColor4;
+    font-size: calc(10px + (30 - 10) * ((100vw - 320px) / (1440 - 320)));
+    font-style: italic;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+// .tags-list-box {
+//     flex-direction: column;
+//     box-sizing: border-box;
+// }
+.tags-list-item {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $mainColor;
+    font-size: calc(3px + (15 - 3) * ((100vw - 320px) / (1440 - 320)));
+    font-style: italic;
+    line-height: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 90px;
+    text-transform: uppercase;
+    background: $mainColor2;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.tags-list-item:hover {
+    color: $mainColor2;
+    background: $mainColor;
+}
