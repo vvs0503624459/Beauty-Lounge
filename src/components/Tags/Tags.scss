@@ -35,8 +35,12 @@
     padding: 5px 5px;
     margin-bottom: 10px;
     width: fit-content;
+    transition-duration: 0.7s;
 }
 .tags-list-item:hover {
     color: $mainColor2;
     background: $mainColor;
+            transform: scale(1.3);
+        transition-timing-function: ease-out;
+        box-shadow: 3px 3px rgba(233, 193, 106, 0.9);
 }

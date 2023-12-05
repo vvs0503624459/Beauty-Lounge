@@ -10,10 +10,14 @@
     border: $mainColor;
     color: $mainColor2;
     font-size: calc(8px + (14 - 8) * ((100vw - 320px) / (1440 - 320)));
+    transition-duration: 1s;
 }
 .header-top-btn-box button:hover {
     background-color: $mainColor2;
     color: $mainColor;
+    transform: scale(1.1);
+    transition-timing-function: ease-out;
+    box-shadow: 3px 3px rgba(233, 193, 106, 0.9);
 }
 
 .menu {
