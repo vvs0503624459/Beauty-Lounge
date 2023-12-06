@@ -16,15 +16,14 @@
     svg {
         color: goldenrod;
     }
-    .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
-        border-color: goldenrod;
-    }
+
     color: $mainColor2;
     box-shadow: 0 1px 10px rgba(233, 193, 106, 0.9);
     border-radius: 5px;
     height: 50px;
 }
 .article-image {
+    
     width: 100%;
      transition-duration: 0.7s;
     &:hover{
@@ -33,7 +32,7 @@
     }
 }
 .btn-like {
-
+    border-color: goldenrod;
      transition-duration: 0.7s;
      opacity: 1;
     &:hover{
